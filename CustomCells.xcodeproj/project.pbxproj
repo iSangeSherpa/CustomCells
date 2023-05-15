@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5011CB652A0FCFB400FF8D69 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5011CB642A0FCFB400FF8D69 /* CustomCollectionViewCell.swift */; };
 		507B6A6F2A0E2CE1009C571B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507B6A6E2A0E2CE1009C571B /* AppDelegate.swift */; };
 		507B6A712A0E2CE1009C571B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507B6A702A0E2CE1009C571B /* SceneDelegate.swift */; };
 		507B6A732A0E2CE1009C571B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507B6A722A0E2CE1009C571B /* TableViewController.swift */; };
@@ -14,12 +15,14 @@
 		507B6A782A0E2CE4009C571B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 507B6A772A0E2CE4009C571B /* Assets.xcassets */; };
 		507B6A7B2A0E2CE4009C571B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507B6A792A0E2CE4009C571B /* LaunchScreen.storyboard */; };
 		507B6A862A0E2FD9009C571B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507B6A852A0E2FD9009C571B /* CustomTableViewCell.swift */; };
+		507B6A882A0E3569009C571B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507B6A872A0E3569009C571B /* CollectionViewController.swift */; };
 		F6A5A18DCBFCFA024790AC4A /* Pods_CustomCells.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A291A87145BF032D6D193F3 /* Pods_CustomCells.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A291A87145BF032D6D193F3 /* Pods_CustomCells.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomCells.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6C305D39B19CF594C54FC7 /* Pods-CustomCells.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCells.release.xcconfig"; path = "Target Support Files/Pods-CustomCells/Pods-CustomCells.release.xcconfig"; sourceTree = "<group>"; };
+		5011CB642A0FCFB400FF8D69 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		507B6A6B2A0E2CE1009C571B /* CustomCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		507B6A6E2A0E2CE1009C571B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		507B6A702A0E2CE1009C571B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +32,7 @@
 		507B6A7A2A0E2CE4009C571B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		507B6A7C2A0E2CE4009C571B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		507B6A852A0E2FD9009C571B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		507B6A872A0E3569009C571B /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		FAC69F50284F6E711D0FBCBE /* Pods-CustomCells.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCells.debug.xcconfig"; path = "Target Support Files/Pods-CustomCells/Pods-CustomCells.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				507B6A722A0E2CE1009C571B /* TableViewController.swift */,
+				507B6A872A0E3569009C571B /* CollectionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				507B6A852A0E2FD9009C571B /* CustomTableViewCell.swift */,
+				5011CB642A0FCFB400FF8D69 /* CustomCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,9 +240,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				507B6A732A0E2CE1009C571B /* TableViewController.swift in Sources */,
+				5011CB652A0FCFB400FF8D69 /* CustomCollectionViewCell.swift in Sources */,
 				507B6A6F2A0E2CE1009C571B /* AppDelegate.swift in Sources */,
 				507B6A862A0E2FD9009C571B /* CustomTableViewCell.swift in Sources */,
 				507B6A712A0E2CE1009C571B /* SceneDelegate.swift in Sources */,
+				507B6A882A0E3569009C571B /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
